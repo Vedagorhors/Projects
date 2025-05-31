@@ -1,0 +1,23 @@
+.color-1 {
+    color: Chocolate;
+}
+
+/* RGB_RED_GREEN_BLUE */
+/* 00 - ff */
+.color-2 {
+    color: #000000;
+}
+
+.color-3 {
+    color: #ddd;
+}
+
+/* 0 - 255 */
+.color-4 {
+    color: rgb(0, 150, 0);
+    /* opacity: 0.7; */
+}
+
+.color-5 {
+    color: rgba(150, 0, 0, 0.7);
+}
