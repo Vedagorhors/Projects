@@ -5,10 +5,11 @@ debugger;
 // let totalJuniorDevelopersSalary = salaryOfJuniorDeveloper * numberOfJuniorDevelopers * taxPercentage;
 let totalJuniorDevelopersSalary = 0;
 console.log(totalJuniorDevelopersSalary);
-                debugger;
+debugger;
 for (let i = 0; i < numberOfJuniorDevelopers; i += 1) {
-   const salaryWithTax = salaryOfJuniorDeveloper-(salaryOfJuniorDeveloper*taxPercentage/100);
-   totalJuniorDevelopersSalary += salaryWithTax;
+  const salaryWithTax =
+    salaryOfJuniorDeveloper - (salaryOfJuniorDeveloper * taxPercentage) / 100;
+  totalJuniorDevelopersSalary += salaryWithTax;
 }
-console.log('totalJuniorDevelopersSalary', totalJuniorDevelopersSalary);
+console.log("totalJuniorDevelopersSalary", totalJuniorDevelopersSalary);
 debugger;

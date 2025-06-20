@@ -33,3 +33,19 @@ let resultString = Math.floor(resultStringLength / 2); // нахожу сере�
 console.log(resultString);
 console.log(stringSlice[resultString]); // вывожу в консоль символ, который находится посередине конечной строки: б
 console.log(stringSlice); // вывожу конечную строку
+
+// решение с курса:
+let javaScriptDescription =
+  "JavaScript — мультипарадигменный язык программирования. Поддерживает объектно-ориентированный, императивный и функциональный стили. Является реализацией спецификации ECMAScript. JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений.";
+const middleIndex = Math.floor((javaScriptDescription.length - 1) / 2);
+
+javaScriptDescription = javaScriptDescription
+  .slice(0, middleIndex)
+  .replaceAll("a", "A") // латиница
+  .replaceAll("а", "А") // кириллица
+  .replaceAll(" ", "")
+  .repeat(3);
+const updatedMiddleIndex = Math.floor((javaScriptDescription.length - 1) / 2);
+
+console.log(javaScriptDescription[updatedMiddleIndex]);
+console.log(javaScriptDescription);
